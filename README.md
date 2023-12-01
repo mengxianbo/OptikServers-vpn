@@ -1,8 +1,14 @@
 # OptikServers-vpn
+ 
+需要固定隧道
 
-修改权限 777
+     固定隧道 vmess：localhost:8001
+     固定隧道 vless: localhost:8002
 
-地址    https://optikservers.com   
+（index.js）+（start.sh）  修改权限 （777）
+
+
+项目地址    https://optikservers.com   
 
 
 
