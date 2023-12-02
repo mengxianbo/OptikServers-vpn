@@ -1,25 +1,14 @@
 #!/bin/bash
-## ===========================================设置各参数（不需要的可以删掉或者前面加# ）=============================================
-
-# 设置ARGO参数 (不设置默认使用临时隧道，如果设置把前面的#去掉)
- export TOK='eyJhIjoiOTVmMTZlNGFmMmM3YjNkOGY3M2IzN2VhZWZhZDNkZWMiLCJ0IjoiZDM5Nzc2YmQtYzBiZi00NGIxLThlOTUtYTMxMzI5YjIxMDJlIiwicyI6IlpqWTRZek5qWXpjdE1HVm1ZaTAwTUdGbExXRTBNamt0WkRWaFltRTJNbUkxWlRGayJ9'
- export ARGO_DOMAIN='optik.jianxian.love'
-
-#设置哪吒参数(NEZHA_TLS='1'开启tls,设置其他关闭tls)
+export TOK='隧道密钥'
+export ARGO_DOMAIN='二级域名'
 export NEZHA_SERVER='xxxx'
 export NEZHA_KEY='xxx'
 export NEZHA_PORT='443'
 export NEZHA_TLS='1'
-
-#设置app参数（默认x-ra-y参数，如果你更该了下载地址，需要修改UUID和VPATH）
 export UUID='fd80f56e-93f3-4c85-b2a8-c77216c509a7'
 export VPATH='vls'
-export CF_IP='ssfnbox.com'
-
-## ===========================================设置x-ra-y下载地址（建议直接使用默认）===============================
-# 设置amd64-X-A-R-Y下载地址（带内置配置版本）
+export CF_IP='jianxian.xyz'
 export URL_BOT='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-amd-w'
-# 设置arm64_64-X-A-R-Y下载地址（带内置配置版本）
 export URL_BOT2='https://github.com/dsadsadsss/d/releases/download/sd/kano-6-arm-w'
 if command -v curl &>/dev/null; then
         DOWNLOAD_CMD="curl -sL"
